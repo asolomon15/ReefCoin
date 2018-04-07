@@ -18,8 +18,8 @@ BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/reefd}
 BITCOIND_NICE=${BITCOIND_NICE:-${NICELEVEL:-0}}
 BITCOIND_OPTS="${BITCOIND_OPTS:-${BITCOIN_OPTS}}"
 
-name="Proton Core Daemon"
-description="Proton cryptocurrency P2P network daemon"
+name="Reef Core Daemon"
+description="Reef cryptocurrency P2P network daemon"
 
 command="/usr/bin/reefd"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
@@ -84,7 +84,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Proton Core Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Reef Core Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

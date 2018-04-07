@@ -27,7 +27,7 @@ Development Process
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
 [Tags](https://github.com/reefcoin/reefcoin/tags) are created to indicate new official,
-stable release versions of Proton Core.
+stable release versions of Reef Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 

@@ -68,9 +68,9 @@ can then be controlled by group membership.
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/reefd`  
-Configuration file:  `~/Library/Application Support/ProtonCore/reef.conf`  
-Data directory:      `~/Library/Application Support/ProtonCore`
-Lock file:           `~/Library/Application Support/ProtonCore/.lock`
+Configuration file:  `~/Library/Application Support/ReefCore/reef.conf`  
+Data directory:      `~/Library/Application Support/ReefCore`
+Lock file:           `~/Library/Application Support/ReefCore/.lock`
 
 4. Installing Service Configuration
 -----------------------------------

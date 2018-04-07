@@ -82,7 +82,7 @@ after_script:
 before_deploy:
     - if [[ "$PLATFORM" = *"linux"* ]]; then cd $OUTDIR/bin && tar -cvzf $OUTDIR/bin/reefcoin-$PLATFORM-$TRAVIS_TAG.tar.gz reef*; fi
     - if [[ "$PLATFORM" = *"win"* ]]; then zip -j $OUTDIR/bin/reefcoin-$PLATFORM-$TRAVIS_TAG.zip $OUTDIR/bin/reef*; fi
-    - if [[ "$PLATFORM" = *"osx"* ]]; then mkdir -p $OUTDIR/bin && cp Proton-Core.dmg $OUTDIR/bin/reefcoin-$PLATFORM-$TRAVIS_TAG.dmg; fi
+    - if [[ "$PLATFORM" = *"osx"* ]]; then mkdir -p $OUTDIR/bin && cp Reef-Core.dmg $OUTDIR/bin/reefcoin-$PLATFORM-$TRAVIS_TAG.dmg; fi
 deploy:
     provider: releases
     api_key:

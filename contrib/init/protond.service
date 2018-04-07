@@ -1,5 +1,5 @@
 [Unit]
-Description=Proton's distributed currency daemon
+Description=Reef's distributed currency daemon
 After=network.target
 
 [Service]

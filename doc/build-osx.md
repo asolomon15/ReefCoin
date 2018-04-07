@@ -34,17 +34,17 @@ Instructions: Homebrew
 
     brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf libevent
 
-NOTE: Building with Qt4 is still supported, however, could result in a broken UI. As such, building with Qt5 is recommended. Qt5 5.7 requires C++11 which Proton Core doesn't fully support yet, Qt5 5.6.2 has some other issues, so make sure to install Qt version < 5.6.2 (5.6.1-1 is recommended).
+NOTE: Building with Qt4 is still supported, however, could result in a broken UI. As such, building with Qt5 is recommended. Qt5 5.7 requires C++11 which Reef Core doesn't fully support yet, Qt5 5.6.2 has some other issues, so make sure to install Qt version < 5.6.2 (5.6.1-1 is recommended).
     brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/e6d954bab88e89c5582498157077756900865070/Formula/qt5.rb
 
-### Building Proton Core
+### Building Reef Core
 
 1. Clone the GitHub tree to get the source code and go into the directory.
 
         git clone https://github.com/reefcoin/reefcoin.git
         cd reef
 
-2.  Build Proton Core:
+2.  Build Reef Core:
     This will configure and build the headless reef binaries as well as the gui (if Qt is found).
     You can disable the gui build by passing `--without-gui` to configure.
 
@@ -80,9 +80,9 @@ Creating a release build
 ------------------------
 You can ignore this section if you are building `reefd` for your own use.
 
-reefd/reef-cli binaries are not included in the Proton-Qt.app bundle.
+reefd/reef-cli binaries are not included in the Reef-Qt.app bundle.
 
-If you are building `reefd` or `Proton Core` for others, your build machine should be set up
+If you are building `reefd` or `Reef Core` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -91,7 +91,7 @@ All dependencies should be compiled with these flags:
  -arch x86_64
  -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 
-Once dependencies are compiled, see [doc/release-process.md](release-process.md) for how the Proton Core
+Once dependencies are compiled, see [doc/release-process.md](release-process.md) for how the Reef Core
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running
@@ -103,14 +103,14 @@ directory. We have to first create the RPC configuration file, though.
 Run `./reefd` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=reefrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/ProtonCore/reef.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/ProtonCore/reef.conf"
+    echo -e "rpcuser=reefrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/ReefCore/reef.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/ReefCore/reef.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
 you can monitor its process by looking at the debug.log file, like this:
 
-    tail -f $HOME/Library/Application\ Support/ProtonCore/debug.log
+    tail -f $HOME/Library/Application\ Support/ReefCore/debug.log
 
 Other commands:
 -------

@@ -135,7 +135,7 @@ You can confirm that remote server is on the correct block by issuing
 
 ```reef-cli getinfo```
 
-and comparing with the official explorer at https://explorer.reefcoin.info/chain/Proton
+and comparing with the official explorer at https://explorer.reefcoin.info/chain/Reef
 
 ### Local
 

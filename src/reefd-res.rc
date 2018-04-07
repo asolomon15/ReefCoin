@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Proton"
-            VALUE "FileDescription",    "reefd (Proton node with a JSON-RPC server)"
+            VALUE "CompanyName",        "Reef"
+            VALUE "FileDescription",    "reefd (Reef node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "reefd"
             VALUE "LegalCopyright",     COPYRIGHT_STR

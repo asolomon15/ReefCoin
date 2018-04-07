@@ -78,13 +78,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Proton addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Proton addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Reef addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Reef addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Proton addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your Proton addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <source>These are your Reef addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>These are your Reef addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -235,8 +235,8 @@
     </message>
     <message>
         <location line="+57"/>
-        <source>Proton Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your reefs from being stolen by malware infecting your computer.</source>
-        <translation>Proton Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your reefs from being stolen by malware infecting your computer.</translation>
+        <source>Reef Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your reefs from being stolen by malware infecting your computer.</source>
+        <translation>Reef Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your reefs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -309,8 +309,8 @@
     <message>
         <location filename="../bitcoingui.cpp" line="+127"/>
         <location line="+919"/>
-        <source>Proton Core</source>
-        <translation>Proton Core</translation>
+        <source>Reef Core</source>
+        <translation>Reef Core</translation>
     </message>
     <message>
         <location line="-910"/>
@@ -339,8 +339,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Send coins to a Proton address</source>
-        <translation>Send coins to a Proton address</translation>
+        <source>Send coins to a Reef address</source>
+        <translation>Send coins to a Reef address</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -384,13 +384,13 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;About Proton Core</source>
-        <translation>&amp;About Proton Core</translation>
+        <source>&amp;About Reef Core</source>
+        <translation>&amp;About Reef Core</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Proton Core</source>
-        <translation>Show information about Proton Core</translation>
+        <source>Show information about Reef Core</source>
+        <translation>Show information about Reef Core</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -469,8 +469,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Sign messages with your Proton addresses to prove you own them</source>
-        <translation>Sign messages with your Proton addresses to prove you own them</translation>
+        <source>Sign messages with your Reef addresses to prove you own them</source>
+        <translation>Sign messages with your Reef addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -479,8 +479,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Verify messages to ensure they were signed with specified Proton addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Proton addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Reef addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Reef addresses</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -584,8 +584,8 @@
     </message>
     <message>
         <location line="+267"/>
-        <source>Proton Core client</source>
-        <translation>Proton Core client</translation>
+        <source>Reef Core client</source>
+        <translation>Reef Core client</translation>
     </message>
     <message>
         <location line="+334"/>
@@ -619,8 +619,8 @@
     </message>
     <message numerus="yes">
         <location line="+347"/>
-        <source>%n active connection(s) to Proton network</source>
-        <translation><numerusform>%n active connection to Proton network</numerusform><numerusform>%n active connections to Proton network</numerusform></translation>
+        <source>%n active connection(s) to Reef network</source>
+        <translation><numerusform>%n active connection to Reef network</numerusform><numerusform>%n active connections to Reef network</numerusform></translation>
     </message>
     <message>
         <location line="+15"/>
@@ -654,8 +654,8 @@
     </message>
     <message>
         <location line="-567"/>
-        <source>Modify configuration options for Proton Core</source>
-        <translation>Modify configuration options for Proton Core</translation>
+        <source>Modify configuration options for Reef Core</source>
+        <translation>Modify configuration options for Reef Core</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -674,8 +674,8 @@
     </message>
     <message>
         <location line="+20"/>
-        <source>Show the Proton Core help message to get a list with possible Proton Core command-line options</source>
-        <translation>Show the Proton Core help message to get a list with possible Proton Core command-line options</translation>
+        <source>Show the Reef Core help message to get a list with possible Reef Core command-line options</source>
+        <translation>Show the Reef Core help message to get a list with possible Reef Core command-line options</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1206,18 +1206,18 @@
     </message>
     <message>
         <location line="-29"/>
-        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Proton&apos;s configuration screen.</source>
-        <translation>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Proton&apos;s configuration screen.</translation>
+        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Reef&apos;s configuration screen.</source>
+        <translation>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Reef&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Proton&apos;s configuration screen.</source>
-        <translation>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Proton&apos;s configuration screen.</translation>
+        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Reef&apos;s configuration screen.</source>
+        <translation>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Reef&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Proton&apos;s configuration screen.</source>
-        <translation>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Proton&apos;s configuration screen.</translation>
+        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Reef&apos;s configuration screen.</source>
+        <translation>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Reef&apos;s configuration screen.</translation>
     </message>
 </context>
 <context>
@@ -1269,8 +1269,8 @@
     </message>
     <message>
         <location line="+71"/>
-        <source>The entered address &quot;%1&quot; is not a valid Proton address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Proton address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Reef address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Reef address.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1320,8 +1320,8 @@
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+37"/>
-        <source>Proton Core</source>
-        <translation>Proton Core</translation>
+        <source>Reef Core</source>
+        <translation>Reef Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1336,8 +1336,8 @@
     </message>
     <message>
         <location line="+5"/>
-        <source>About Proton Core</source>
-        <translation>About Proton Core</translation>
+        <source>About Reef Core</source>
+        <translation>About Reef Core</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1381,8 +1381,8 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Proton in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an reeftive process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 REEF, 0.1 REEF, 1 REEF and 10 REEF -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://reefcoin.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://reefcoin.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Proton in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an reeftive process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 REEF, 0.1 REEF, 1 REEF and 10 REEF -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://reefcoin.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://reefcoin.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Reef in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an reeftive process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 REEF, 0.1 REEF, 1 REEF and 10 REEF -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://reefcoin.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://reefcoin.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Reef in your wallet is comprised of different &quot;inputs&quot; which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an reeftive process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type=&quot;1&quot;&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 REEF, 0.1 REEF, 1 REEF and 10 REEF -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called &quot;masternodes.&quot; These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know &quot;who&quot; you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users&apos; wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it&apos;s called a &quot;round.&quot; Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these &quot;change addresses.&quot; Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href=&quot;https://reefcoin.atlassian.net/wiki/display/DOC/PrivateSend&quot;&gt;https://reefcoin.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
     </message>
     <message>
         <location line="-50"/>
@@ -1409,18 +1409,18 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Proton Core.</source>
-        <translation>Welcome to Proton Core.</translation>
+        <source>Welcome to Reef Core.</source>
+        <translation>Welcome to Reef Core.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Proton Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where Proton Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Reef Core will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where Reef Core will store its data.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Proton Core will download and store a copy of the Proton block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Proton Core will download and store a copy of the Proton block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>Reef Core will download and store a copy of the Reef block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Reef Core will download and store a copy of the Reef block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1434,8 +1434,8 @@
     </message>
     <message>
         <location filename="../intro.cpp" line="+88"/>
-        <source>Proton Core</source>
-        <translation>Proton Core</translation>
+        <source>Reef Core</source>
+        <translation>Reef Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1675,8 +1675,8 @@
     </message>
     <message>
         <location line="+155"/>
-        <source>Amount of Proton to keep anonymized</source>
-        <translation>Amount of Proton to keep anonymized</translation>
+        <source>Amount of Reef to keep anonymized</source>
+        <translation>Amount of Reef to keep anonymized</translation>
     </message>
     <message>
         <location line="-119"/>
@@ -1685,13 +1685,13 @@
     </message>
     <message>
         <location line="-104"/>
-        <source>Automatically start Proton Core after logging in to the system.</source>
-        <translation>Automatically start Proton Core after logging in to the system.</translation>
+        <source>Automatically start Reef Core after logging in to the system.</source>
+        <translation>Automatically start Reef Core after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Proton Core on system login</source>
-        <translation>&amp;Start Proton Core on system login</translation>
+        <source>&amp;Start Reef Core on system login</source>
+        <translation>&amp;Start Reef Core on system login</translation>
     </message>
     <message>
         <location line="+123"/>
@@ -1750,8 +1750,8 @@
     </message>
     <message>
         <location line="+60"/>
-        <source>Automatically open the Proton Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Proton Core client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Reef Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Reef Core client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1765,8 +1765,8 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Proton network through a SOCKS5 proxy.</source>
-        <translation>Connect to the Proton network through a SOCKS5 proxy.</translation>
+        <source>Connect to the Reef network through a SOCKS5 proxy.</source>
+        <translation>Connect to the Reef network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1780,8 +1780,8 @@
     </message>
     <message>
         <location line="+45"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Proton Core.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Proton Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Reef Core.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Reef Core.</translation>
     </message>
     <message>
         <location line="+99"/>
@@ -1877,8 +1877,8 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>Connect to the Proton network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Connect to the Proton network through a separate SOCKS5 proxy for Tor hidden services.</translation>
+        <source>Connect to the Reef network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Connect to the Reef network through a separate SOCKS5 proxy for Tor hidden services.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2020,8 +2020,8 @@ https://www.transifex.com/projects/p/reef/</translation>
         <location line="+50"/>
         <location line="+355"/>
         <location line="+258"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Proton network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Proton network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reef network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Reef network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-364"/>
@@ -2414,8 +2414,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Proton address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid Proton address or malformed URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Reef address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid Reef address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2521,8 +2521,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+119"/>
-        <source>Enter a Proton address (e.g. %1)</source>
-        <translation>Enter a Proton address (e.g. %1)</translation>
+        <source>Enter a Reef address (e.g. %1)</source>
+        <translation>Enter a Reef address (e.g. %1)</translation>
     </message>
     <message>
         <location line="+857"/>
@@ -2722,8 +2722,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+48"/>
-        <source>Open the Proton Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Proton Core debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Reef Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Reef Core debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -2990,8 +2990,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+148"/>
-        <source>Welcome to the Proton Core RPC console.</source>
-        <translation>Welcome to the Proton Core RPC console.</translation>
+        <source>Welcome to the Reef Core RPC console.</source>
+        <translation>Welcome to the Reef Core RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3080,8 +3080,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Proton network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Proton network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reef network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reef network.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3096,8 +3096,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="-14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Proton network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Proton network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Reef network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Reef network.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3675,8 +3675,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+229"/>
-        <source>Warning: Invalid Proton address</source>
-        <translation>Warning: Invalid Proton address</translation>
+        <source>Warning: Invalid Reef address</source>
+        <translation>Warning: Invalid Reef address</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -3703,8 +3703,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Proton address to send the payment to</source>
-        <translation>The Proton address to send the payment to</translation>
+        <source>The Reef address to send the payment to</source>
+        <translation>The Reef address to send the payment to</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3752,8 +3752,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="-1046"/>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Proton than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Proton than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Reef than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Reef than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3767,8 +3767,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the reef: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Proton network.</source>
-        <translation>A message that was attached to the reef: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Proton network.</translation>
+        <source>A message that was attached to the reef: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reef network.</source>
+        <translation>A message that was attached to the reef: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reef network.</translation>
     </message>
     <message>
         <location line="+433"/>
@@ -3802,8 +3802,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+119"/>
-        <source>Proton Core is shutting down...</source>
-        <translation>Proton Core is shutting down...</translation>
+        <source>Reef Core is shutting down...</source>
+        <translation>Reef Core is shutting down...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3825,13 +3825,13 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>You can sign messages/agreements with your addresses to prove you can receive Proton sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>You can sign messages/agreements with your addresses to prove you can receive Proton sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Reef sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>You can sign messages/agreements with your addresses to prove you can receive Reef sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Proton address to sign the message with</source>
-        <translation>The Proton address to sign the message with</translation>
+        <source>The Reef address to sign the message with</source>
+        <translation>The Reef address to sign the message with</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3872,8 +3872,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+17"/>
-        <source>Sign the message to prove you own this Proton address</source>
-        <translation>Sign the message to prove you own this Proton address</translation>
+        <source>Sign the message to prove you own this Reef address</source>
+        <translation>Sign the message to prove you own this Reef address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3903,13 +3903,13 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The Proton address the message was signed with</source>
-        <translation>The Proton address the message was signed with</translation>
+        <source>The Reef address the message was signed with</source>
+        <translation>The Reef address the message was signed with</translation>
     </message>
     <message>
         <location line="+33"/>
-        <source>Verify the message to ensure it was signed with the specified Proton address</source>
-        <translation>Verify the message to ensure it was signed with the specified Proton address</translation>
+        <source>Verify the message to ensure it was signed with the specified Reef address</source>
+        <translation>Verify the message to ensure it was signed with the specified Reef address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3997,8 +3997,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+45"/>
-        <source>Proton Core</source>
-        <translation>Proton Core</translation>
+        <source>Reef Core</source>
+        <translation>Reef Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4012,8 +4012,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>The Proton Core developers</source>
-        <translation>The Proton Core developers</translation>
+        <source>The Reef Core developers</source>
+        <translation>The Reef Core developers</translation>
     </message>
     <message>
         <location filename="../networkstyle.cpp" line="+21"/>
@@ -4731,8 +4731,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Cannot obtain a lock on data directory %s. Proton Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Proton Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. Reef Core is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. Reef Core is probably already running.</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -4781,8 +4781,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. Proton Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Proton Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Reef Core is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Reef Core is probably already running.</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -5131,8 +5131,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The Proton Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Proton Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Reef Core Developers</source>
+        <translation>Copyright (C) 2014-%i The Reef Core Developers</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5146,8 +5146,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Proton Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Proton Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Reef Core</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Reef Core</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -5201,8 +5201,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Proton Core is shutting down.</source>
-        <translation>Initialization sanity check failed. Proton Core is shutting down.</translation>
+        <source>Initialization sanity check failed. Reef Core is shutting down.</source>
+        <translation>Initialization sanity check failed. Reef Core is shutting down.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5491,8 +5491,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Wallet needed to be rewritten: restart Proton Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart Proton Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart Reef Core to complete</source>
+        <translation>Wallet needed to be rewritten: restart Reef Core to complete</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -5556,8 +5556,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="-328"/>
-        <source>Disable all Proton specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Disable all Proton specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</translation>
+        <source>Disable all Reef specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
+        <translation>Disable all Reef specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5656,8 +5656,8 @@ https://www.transifex.com/projects/p/reef/</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong Proton Core will not work properly.</source>
-        <translation>Please check that your computer&apos;s date and time are correct! If your clock is wrong Proton Core will not work properly.</translation>
+        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong Reef Core will not work properly.</source>
+        <translation>Please check that your computer&apos;s date and time are correct! If your clock is wrong Reef Core will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>

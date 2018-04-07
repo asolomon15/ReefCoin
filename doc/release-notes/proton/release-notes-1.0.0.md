@@ -1,7 +1,7 @@
 1.0.0 Release notes
 ====================
 
-Proton Core version 1.0.0 is now available from:
+Reef Core version 1.0.0 is now available from:
 
   https://reefcoin.io/downloads
 
@@ -15,7 +15,7 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/Proton-Qt (on Mac) or
+installer (on Windows) or just copy over /Applications/Reef-Qt (on Mac) or
 reefd/reef-qt (on Linux).
 
 **This new version uses transaction indexing by default, you will need to reindex 

@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018 The Proton Core developers
+// Copyright (c) 2014-2018 The Reef Core developers
 
 /*
  * FIELDS AND CLASSIFICATION
@@ -45,7 +45,7 @@
  * =========================
  *
  *   // network
- *   CProtonNetwork lvl, network-type, network-status, network-error, milestone-status*
+ *   CReefNetwork lvl, network-type, network-status, network-error, milestone-status*
  *   CCategory lvl, category-type, status, status-error
  *   CNetworkGlobalVariable lvl, global-type, status, status-error
  *   // base: actor
@@ -130,7 +130,7 @@ public:
 };
 
 // // root node
-class CProtonNetwork : public CGovernanceObject
+class CReefNetwork : public CGovernanceObject
 {
 private:
     std::string strName;
@@ -138,7 +138,7 @@ private:
 
 
 public:
-    CProtonNetwork(UniValue objIn)
+    CReefNetwork(UniValue objIn)
     {
         strName = objIn["name"].get_str();
         strURL = objIn["name"].get_str();
@@ -174,9 +174,9 @@ public:
 
 };
 
-// // can be under: ProtonNetwork
+// // can be under: ReefNetwork
 // //   -- signature requirements : Key1(User)
-// class CProtonNetworkVariable : public CGovernanceObject
+// class CReefNetworkVariable : public CGovernanceObject
 // {
 // private:
 
@@ -279,7 +279,7 @@ public:
 //     // isRootCategory()
 //     // {
 //     //     // root categories won't have categories as parents
-//     //     return (IsType() == ProtonNetwork);
+//     //     return (IsType() == ReefNetwork);
 //     // }
 
 //     // isSubcategoryOf(std::string strParentName)

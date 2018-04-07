@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Proton"
-            VALUE "FileDescription",    "reef-cli (JSON-RPC client for Proton Core)"
+            VALUE "CompanyName",        "Reef"
+            VALUE "FileDescription",    "reef-cli (JSON-RPC client for Reef Core)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "reef-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR

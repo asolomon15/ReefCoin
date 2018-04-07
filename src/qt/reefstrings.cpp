@@ -42,7 +42,7 @@ QT_TRANSLATE_NOOP("reef-core", ""
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
 QT_TRANSLATE_NOOP("reef-core", ""
-"Cannot obtain a lock on data directory %s. Proton Core is probably already "
+"Cannot obtain a lock on data directory %s. Reef Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("reef-core", ""
 "Create new files with system default permissions, instead of umask 077 (only "
@@ -51,7 +51,7 @@ QT_TRANSLATE_NOOP("reef-core", ""
 "Delete all wallet transactions and only recover those parts of the "
 "blockchain through -rescan on startup"),
 QT_TRANSLATE_NOOP("reef-core", ""
-"Disable all Proton specific functionality (Masternodes, PrivateSend, "
+"Disable all Reef specific functionality (Masternodes, PrivateSend, "
 "InstantSend, Governance) (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("reef-core", ""
 "Discover own IP addresses (default: 1 when listening and no -externalip or -"
@@ -149,7 +149,7 @@ QT_TRANSLATE_NOOP("reef-core", ""
 "Output debugging information (default: %u, supplying <category> is optional)"),
 QT_TRANSLATE_NOOP("reef-core", ""
 "Please check that your computer's date and time are correct! If your clock "
-"is wrong Proton Core will not work properly."),
+"is wrong Reef Core will not work properly."),
 QT_TRANSLATE_NOOP("reef-core", ""
 "PrivateSend uses exact denominated amounts to send funds, you might simply "
 "need to anonymize some more coins."),
@@ -212,7 +212,7 @@ QT_TRANSLATE_NOOP("reef-core", ""
 "Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = "
 "no limit (default: %d)"),
 QT_TRANSLATE_NOOP("reef-core", ""
-"Unable to bind to %s on this computer. Proton Core is probably already running."),
+"Unable to bind to %s on this computer. Reef Core is probably already running."),
 QT_TRANSLATE_NOOP("reef-core", ""
 "Unable to locate enough PrivateSend denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("reef-core", ""
@@ -313,7 +313,7 @@ QT_TRANSLATE_NOOP("reef-core", "Connect to KeePassHttp on port <port> (default: 
 QT_TRANSLATE_NOOP("reef-core", "Connect to a node to retrieve peer addresses, and disconnect"),
 QT_TRANSLATE_NOOP("reef-core", "Connection options:"),
 QT_TRANSLATE_NOOP("reef-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
-QT_TRANSLATE_NOOP("reef-core", "Copyright (C) 2014-%i The Proton Core Developers"),
+QT_TRANSLATE_NOOP("reef-core", "Copyright (C) 2014-%i The Reef Core Developers"),
 QT_TRANSLATE_NOOP("reef-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("reef-core", "Could not parse masternode.conf"),
 QT_TRANSLATE_NOOP("reef-core", "Debugging/Testing options:"),
@@ -336,7 +336,7 @@ QT_TRANSLATE_NOOP("reef-core", "Error initializing wallet database environment %
 QT_TRANSLATE_NOOP("reef-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("reef-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("reef-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("reef-core", "Error loading wallet.dat: Wallet requires newer version of Proton Core"),
+QT_TRANSLATE_NOOP("reef-core", "Error loading wallet.dat: Wallet requires newer version of Reef Core"),
 QT_TRANSLATE_NOOP("reef-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("reef-core", "Error reading from database, shutting down."),
 QT_TRANSLATE_NOOP("reef-core", "Error"),
@@ -359,7 +359,7 @@ QT_TRANSLATE_NOOP("reef-core", "Incompatible mode."),
 QT_TRANSLATE_NOOP("reef-core", "Incompatible version."),
 QT_TRANSLATE_NOOP("reef-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("reef-core", "Information"),
-QT_TRANSLATE_NOOP("reef-core", "Initialization sanity check failed. Proton Core is shutting down."),
+QT_TRANSLATE_NOOP("reef-core", "Initialization sanity check failed. Reef Core is shutting down."),
 QT_TRANSLATE_NOOP("reef-core", "Input is not valid."),
 QT_TRANSLATE_NOOP("reef-core", "InstantSend options:"),
 QT_TRANSLATE_NOOP("reef-core", "Insufficient funds."),
@@ -508,7 +508,7 @@ QT_TRANSLATE_NOOP("reef-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("reef-core", "Very low number of keys left: %d"),
 QT_TRANSLATE_NOOP("reef-core", "Wallet %s resides outside data directory %s"),
 QT_TRANSLATE_NOOP("reef-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("reef-core", "Wallet needed to be rewritten: restart Proton Core to complete"),
+QT_TRANSLATE_NOOP("reef-core", "Wallet needed to be rewritten: restart Reef Core to complete"),
 QT_TRANSLATE_NOOP("reef-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("reef-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("reef-core", "Warning"),

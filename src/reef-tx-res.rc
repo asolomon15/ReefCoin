@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Proton"
-            VALUE "FileDescription",    "reef-tx (CLI Proton transaction editor utility)"
+            VALUE "CompanyName",        "Reef"
+            VALUE "FileDescription",    "reef-tx (CLI Reef transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "reef-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR

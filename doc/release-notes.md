@@ -1,4 +1,4 @@
-Proton Core version 2.0.0 is now available from:
+Reef Core version 2.0.0 is now available from:
 
   <https://reefcoin.io>
 
@@ -8,7 +8,7 @@ Proton Core version 2.0.0 is now available from:
 Older releases
 --------------
 
-Proton was previously known as Darkcoin.
+Reef was previously known as Darkcoin.
 
 Darkcoin tree 0.8.x was a fork of Litecoin tree 0.8, original name was XCoin
 which was first released on Jan/18/2014.
@@ -99,10 +99,10 @@ the 0.8.x tree and was first released on Mar/13/2014.
 Darkcoin tree 0.10.x used to be the closed source implementation of Darksend
 which was released open source on Sep/25/2014.
 
-Proton Core tree 0.11.x was a fork of Bitcoin Core tree 0.9, Darkcoin was rebranded
-to Proton.
+Reef Core tree 0.11.x was a fork of Bitcoin Core tree 0.9, Darkcoin was rebranded
+to Reef.
 
-Proton Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
+Reef Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
 
 These release are considered obsolete. Old changelogs can be found here:
 

@@ -149,7 +149,7 @@ testScriptsExt = [
     'p2p-acceptblock.py', # NOTE: needs reef_hash to pass
     'mempool_packages.py',
     'maxuploadtarget.py',
-    # 'replace-by-fee.py', # RBF is disabled in Proton Core
+    # 'replace-by-fee.py', # RBF is disabled in Reef Core
 ]
 
 def runtests():

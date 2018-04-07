@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between reef-cli and reefd)
- * of a given instance of the Proton system.
+ * of a given instance of the Reef system.
  */
 class CBaseChainParams
 {

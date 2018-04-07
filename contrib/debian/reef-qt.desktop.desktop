@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Proton
-Comment=Proton P2P Cryptocurrency
+Name=Reef
+Comment=Reef P2P Cryptocurrency
 Exec=reef-qt %u
 Terminal=false
 Type=Application

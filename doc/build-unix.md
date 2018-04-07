@@ -1,12 +1,12 @@
 UNIX BUILD NOTES
 ====================
-Some notes on how to build Proton Core in Unix.
+Some notes on how to build Reef Core in Unix.
 
 (for OpenBSD specific instructions, see [build-openbsd.md](build-openbsd.md))
 
 Note
 ---------------------
-Always use absolute paths to configure and compile Proton Core and the dependencies,
+Always use absolute paths to configure and compile Reef Core and the dependencies,
 for example, when specifying the the path of the dependency:
 
 	../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
@@ -54,7 +54,7 @@ System requirements
 --------------------
 
 C++ compilers are memory-hungry. It is recommended to have at least 1 GB of
-memory available when compiling Proton Core. With 512MB of memory or less
+memory available when compiling Reef Core. With 512MB of memory or less
 compilation will take much longer due to swap thrashing.
 
 Dependency Build Instructions: Ubuntu & Debian
@@ -85,7 +85,7 @@ BerkeleyDB 5.1 or later, which break binary wallet compatibility with the distri
 are based on BerkeleyDB 4.8. If you do not care about wallet compatibility,
 pass `--with-incompatible-bdb` to configure.
 
-See the section "Disable-wallet mode" to build Proton Core without wallet.
+See the section "Disable-wallet mode" to build Reef Core without wallet.
 
 Optional:
 
@@ -98,7 +98,7 @@ ZMQ dependencies:
 Dependencies for the GUI: Ubuntu & Debian
 -----------------------------------------
 
-If you want to build Proton-Qt, make sure that the required packages for Qt development
+If you want to build Reef-Qt, make sure that the required packages for Qt development
 are installed. Either Qt 5 or Qt 4 are necessary to build the GUI.
 If both Qt 4 and Qt 5 are installed, Qt 5 will be used. Pass `--with-gui=qt4` to configure to choose Qt4.
 To build without GUI pass `--without-gui`.
@@ -159,7 +159,7 @@ cd db-4.8.30.NC/build_unix/
 ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
 make install
 
-# Configure Proton Core to use our own-built instance of BDB
+# Configure Reef Core to use our own-built instance of BDB
 cd $REEF_ROOT
 ./autogen.sh
 ./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/" # (other args...)
@@ -178,7 +178,7 @@ If you need to build Boost yourself:
 
 Security
 --------
-To help make your Proton installation more secure by making certain attacks impossible to
+To help make your Reef installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, binaries are hardened by default.
 This can be disabled with:
 
@@ -211,7 +211,7 @@ Hardening enables the following features:
 
 * Non-executable Stack
     If the stack is executable then trivial stack based buffer overflow exploits are possible if
-    vulnerable buffers are found. By default, Proton Core should be built with a non-executable stack
+    vulnerable buffers are found. By default, Reef Core should be built with a non-executable stack
     but if one of the libraries it uses asks for an executable stack or someone makes a mistake
     and uses a compiler extension which requires an executable stack, it will silently build an
     executable without the non-executable stack protection.
@@ -227,7 +227,7 @@ Hardening enables the following features:
 
 Disable-wallet mode
 --------------------
-When the intention is to run only a P2P node without a wallet, Proton Core may be compiled in
+When the intention is to run only a P2P node without a wallet, Reef Core may be compiled in
 disable-wallet mode with:
 
     ./configure --disable-wallet

@@ -2,7 +2,7 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#define BOOST_TEST_MODULE Proton Test Suite
+#define BOOST_TEST_MODULE Reef Test Suite
 
 #include "test_reef.h"
 

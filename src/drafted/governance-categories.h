@@ -4,15 +4,15 @@
 
 	* means the category has an associated class
 	
-	CProtonNetwork: REEF NETWORK (ROOT)
+	CReefNetwork: REEF NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
-		vector<CProtonProject> vecProjects;
+		vector<CReefProject> vecProjects;
 		vector<CGovernanceObject> vecProposals;
 		vector<CBudgetContract> vecContracts;
 		vector<CBudgetUsers> vecUsers;
 
-	CProtonProject:
+	CReefProject:
 	has:
 		name
 		employees
